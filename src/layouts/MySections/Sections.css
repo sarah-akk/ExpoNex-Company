@@ -1,0 +1,55 @@
+
+  
+  .title {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sections-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  
+  .section-card {
+    max-width: 300px;
+    background: #ffffffea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .exhibition-text {
+    color: rgb(255, 166, 0);
+    font-weight: normal;
+  }
+  
+  .section-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section-title {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .section-card .MuiChip-root {
+    margin-top: 10px;
+  }
+  
+  .MuiCardContent-root {
+    padding: 20px;
+  }
+  
+  .loading,
+  .error {
+    color: #555;
+    font-size: 1.2em;
+  }
+  
+  .details-text{
+    background-color: sandybrown;
+  }

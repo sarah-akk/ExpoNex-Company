@@ -1,0 +1,43 @@
+/* Settings container */
+.container {
+  position: absolute;
+  margin-top: 10rem;
+  margin-left: 20rem;
+  }
+  
+ 
+  
+  /* Settings options */
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual setting option */
+  .option {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    color: #fffcfc;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .option i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #f8ac3a;
+    margin-left: 2rem;
+  }
+  
+  .option span {
+    font-size: 18px;
+  }

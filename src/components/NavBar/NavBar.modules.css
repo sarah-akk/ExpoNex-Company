@@ -1,0 +1,128 @@
+.logo3 {
+  z-index: 1;
+  width: 250px;
+  height: 150px;
+  transform: translateX(-10%) translateY(-15%);
+}
+
+.line2 {
+    z-index: 2;
+    width: 80%;
+    height: 2px; 
+    background: linear-gradient(hwb(17 35% 35%),hsl(41, 95%, 62%)); 
+    margin: 9px auto; 
+  }
+
+
+.sidebar{
+    margin-top: 1rem ;
+    margin-left: 1rem;
+    width: 230px;
+    height: 97%; 
+    background: linear-gradient(#d48c51,rgb(255, 211, 115)); 
+    top: 0; 
+    left: 0; 
+    position: fixed;
+     border-radius: 10px;
+    transition: all 300ms ease;
+
+  }
+  
+  ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menuItem {
+    margin-bottom: 10px; 
+  }
+  
+  a{
+    display: block; 
+    color: white; 
+    font-weight: bold;
+    text-decoration: none; 
+    padding: 10px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  a:hover {
+    background-color: hwb(39 77% 11% / 0.644); 
+    border-radius: 15px;
+    margin-left: 5px;
+  }
+
+  .active {
+    background-color: hwb(39 77% 11% / 0.644); 
+    border-radius: 15px;
+    margin-left: 5px;
+  }
+
+  
+  .topbar {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  position: fixed;
+  margin-left: 22rem;
+  justify-content:start;
+  align-items: center;
+  background-color: transparent;
+  padding: 1rem;
+}
+
+
+h1 {
+  font-size: 1.2rem;
+  color: hwb(51 57% 1%);
+  margin: 0;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 55rem;
+}
+
+input[type="text"] {
+  width: 85%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  background-color: hwb(270 22% 76%);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.search-icon {
+  margin-left: 0.5rem;
+  color: hsl(39, 93%, 60%);
+  cursor: pointer;
+}
+
+.search-icon:hover{
+  border:2px solid hwb(61 55% 1% / 0.493); 
+  border-radius: 50px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-container i{
+  color: hsl(39, 93%, 60%);
+  margin-left: 2rem;
+}
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 4rem;
+}
+
+.logout-icon {
+  color: hsl(39, 93%, 60%);
+  margin-left: 2rem;
+}
+

@@ -1,0 +1,5 @@
+.body1 {
+    position:fixed;
+    transform: translateX(20rem) translateY(5rem);
+    width: 95rem;
+}

@@ -1,0 +1,12 @@
+*{
+   font-family: "Archivo", sans-serif;
+   font-optical-sizing: auto;
+   font-variation-settings:
+     "wdth" 100;
+}
+
+.body {
+   margin: 0;
+   background: rgb(27, 27, 29);
+   color: rgb(27, 27, 29);
+}

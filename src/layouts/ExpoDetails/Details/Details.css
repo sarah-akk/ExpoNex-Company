@@ -1,0 +1,86 @@
+/* src/pages/ExpoDetails/Details.css */
+.expo-details-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 5rem;
+  }
+  
+  .expo-header {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+    gap: 10rem
+  }
+  
+  .expo-details-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .expo-header-info {
+    flex: 1;
+  }
+  
+  .expo-header-info h2 {
+    margin: 0;
+    color: goldenrod;
+    font-size: 30px;
+  }
+  
+  .expo-header-info p {
+    margin: 10px 0;
+  }
+  
+  .expo-location-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .expo-location-icon {
+    width: 20px;
+    height: auto;
+  }
+  
+  .expo-details-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .expo-date-info p,
+  .expo-ticket-info p,
+  .expo-dimensions-info p {
+    margin: 5px 0;
+  }
+  
+  .expo-ticket-info,
+  .expo-dimensions-info {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .expo-ticket-info h3,
+  .expo-dimensions-info h3 {
+    color: darksalmon;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+
+  .status-dropdown {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    ;
+  }
+  
+  .status-feedback {
+    margin-top: 10px;
+    color: green; 
+  }
+  
